@@ -1,0 +1,821 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* header coding  */
+.section {
+    height: 40px;
+    margin-top: -2pc;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+section h3 {
+    color: white;
+    margin-left: 60pc;
+    font-weight: lighter;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+section h4 {
+    color: white;
+    margin-left: 70pc;
+    font-weight: lighter;
+    justify-content: space-around;
+    margin-top: -2pc;
+    cursor: pointer;
+}
+
+#i1 {
+    margin-left: 8px;
+    font-weight: lighter;
+}
+
+header {
+    background-color: #111;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    margin-top: 2pc;
+}
+
+header ul li {
+    color: white;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+
+
+}
+
+header ul li:hover {
+
+    margin-top: 2px;
+    color: white;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 18px;
+    margin-left: 2pc;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
+#logoimg {
+    height: 40px;
+    margin-top: px;
+    margin-left: 10pc;
+
+
+}
+
+#magnifer {
+    color: white;
+    margin-top: 0.5pc;
+    margin-left: 29pc;
+    font-size: 1.2pc;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#magnifer:hover {
+    color: #727272;
+}
+
+/* just below header  section 2 */
+
+section h1 {
+    color: white;
+    position: absolute;
+    margin-top: -17pc;
+    margin-left: 3pc;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 15px;
+
+}
+
+section button {
+
+    height: 50px;
+    width: 180px;
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 50px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20pc;
+    font-size: 18px;
+    margin-left: 5pc;
+    cursor: pointer;
+
+}
+.below-img
+{
+
+}
+
+section button:hover {
+    background-color: white;
+    transition: 1s;
+    color: black;
+
+}
+
+/* Explore OUR LATEST CREATIONS */
+.div1 {
+    background-color: #111;
+    height: 200px;
+    width: 100%;
+    margin-top: -3pc;
+    overflow-wrap: break-word;
+    
+    
+}
+
+div h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 27.5pc;
+    margin-top: 5pc;
+    font-size: 2.5pc;
+}
+
+div pre {
+    color: white;
+    position: absolute;
+    margin-top: 10pc;
+    margin-left: 15pc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+
+
+/* slider coding */
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    margin-top: 8pc;
+}
+
+#slider img {
+    width: 8%;
+    float: left;
+
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+/* captain cook high ceramic */
+.div2 {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 100%;
+
+}
+
+.div2 h5 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 19.5pc;
+    margin-top: 6pc;
+    font-size: 2.5pc;
+}
+
+
+.div2 pre {
+    color: white;
+}
+
+.div2 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* product section */
+#productsection {
+    background-color: white;
+    height: 400px;
+}
+
+#productsection img {
+    padding-left: 3pc;
+    padding-top: 2pc;
+}
+
+#productsection img:hover {
+    /* transform: scale(0.9); */
+    margin-bottom: -15px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.span1 {
+    position: absolute;
+    margin-top: 16pc;
+    margin-left: -13pc;
+    font-size: 20px;
+    color: white;
+}
+
+.P1 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 6pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+.P2 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 22pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+.P3 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 38pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+
+.P4 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 54pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+.P5 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 69.5pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+.div2,
+#productsection,
+.div1,
+header,
+section {
+
+    background: black;
+
+
+}
+.man-watches
+{
+background-color: white;
+height: 1000px;
+width: 100%;
+}
+.today-2
+{
+    font-size: 14px;
+    margin-left: 43pc;
+    margin-top: 23pc;
+    font-weight: bold;
+    color: black;
+}
+.today-3
+{
+    font-size: 14px;
+    margin-left: 65pc;
+    margin-top: 23pc;
+    font-weight: bold;
+    color: black;
+
+}
+.today-4
+{
+    font-size: 14px;
+    margin-left: 43pc;
+    margin-top: 45pc;
+    font-weight: bold;
+    color: black;
+    
+}
+.today-5
+{
+    font-size: 14px;
+    margin-left: 65pc;
+    margin-top: 45pc;
+    font-weight: bold;
+    color: black;
+}
+.today-6
+{
+    font-size: 14px;
+    color: black;
+    margin-left: 5.5pc;
+    margin-top: 25pc;
+    font-weight: bold;
+}
+.today-7
+{
+    color: black;
+    font-size: 14px;
+    margin-left: 32pc;
+    margin-top: 25pc;
+    font-weight: bold;
+}
+.today-8
+{
+    color: black;
+    font-size: 14px;
+    margin-left: 5pc;
+    margin-top: 47.5pc;
+    font-weight: bold;
+}
+.today-9
+{
+    color: black;
+    font-size: 14px;
+    margin-left: 32pc;
+    margin-top: 47.5pc;
+    font-weight: bold;
+}
+.head
+{
+    font-size: 3em;
+    position: absolute;
+    color: black;
+    margin-top: -51pc;
+    font-family: libre_caslon_textmedium;
+    margin-left: 8.5em;
+    
+}
+.rado-customer
+{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+}
+.rado-customer-heading
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-left: 15rem;
+}
+.rado-customer-content
+{
+    color: rgb(223, 222, 222);
+    padding-top: 20vh;
+    padding-left: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}.team
+{
+   padding-left: 20vh;
+}
+.rado-customer-content-btn
+{
+    background-color: white;
+    color: black;
+    margin-left: 53vh;
+    margin-top: 10vh;
+    padding: 1vh;
+    border-radius:30px;
+    border: 1px solid white;
+    width: 120px;
+   height: 40px;
+   cursor: pointer;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.rado-custome-hr
+{
+    width: 40vh;
+    rotate: 90deg;
+    margin-top: -30vh;
+    position: absolute;
+    margin-left: 35pc;
+    
+}
+/* ================================= */
+.rado-store{
+  margin-left: 80vh; 
+}
+.rado-store-heading
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-left: 40vh;
+    margin-top: -48vh;
+}
+.rado-store-content
+{
+    color: rgb(223, 222, 222);
+    padding-left: 38vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    margin-top: -40vh;
+}
+.footer
+{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+}
+.rado-store-content-btn
+{
+    background-color: white;
+    color: black;
+    margin-left: 53vh;
+    margin-top: -20vh;
+    padding: 1vh;
+    border-radius:30px;
+    border: 1px solid white;
+    width: 120px;
+   height: 40px;
+   cursor: pointer;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   
+}
+.footer-ul
+{
+    display: flex;
+    list-style-type: none;
+    gap: 10vh;
+    padding-top: 15vh;
+    padding-left: 25vh;  
+     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vh;
+ 
+}
+.customer-content
+{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25vh;
+    font-size: 2.3vh;
+}
+.customer-content li:hover
+{
+  color: gray;
+  cursor: pointer;
+}
+.legal-content
+{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 56vh;
+    font-size: 2.3vh;
+    margin-top: -15.7vh;
+}
+.legal-content li:hover
+{
+    color: gray;
+    cursor: pointer;
+  
+}
+.social-icon
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: -21vh;
+    margin-left:120vh;
+    position: absolute;
+    display: flex;
+}
+
+.social-icon-1
+{
+    list-style: none;
+    display: flex;
+    gap: 2vh;
+    margin-left: 25pc;
+    margin-top: -17vh;
+    margin-left: 116.5vh;
+    font-size: 25px;
+}
+.Newsletter
+{
+    list-style-type: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vh;
+    position:absolute;
+    margin-left: 65pc;
+    margin-top: -5pc;
+}
+.inputemail
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    margin-top: 1pc;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.Subscribe
+{
+    background-color:black;
+    color: white;
+    padding: 1vh;
+    border-radius:30px;
+    border: 1px solid white;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 160vh;
+
+}
+.copyright
+
+{
+    position: absolute;
+    color: black;
+    font-size: 1rem;
+    margin-left: 75vh;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px)
+{
+    .section{
+        display: none;
+    }
+   a{
+    display: none;
+   }
+   #logoimg
+   {
+    margin-left: 4.5rem;
+   }
+   #magnifer
+   {
+    margin-left: 3rem;
+   }
+   .btn-discover
+   {
+    margin-top: 1rem;
+    margin-left: 7rem;
+   }
+   .explore
+   {
+   margin-left: 4rem;
+   font-size: 25px;
+   }
+   .pre
+   {
+    font-size: 12px;
+    margin-left: -15px;
+    margin-top: 7.5pc;
+
+   }
+   #slider figure
+   {
+    margin-top: -2vh;
+   }
+   .div2,#captain
+   {
+   font-size: 28px;
+   margin-left: -24pc;
+   margin-top: 1pc;
+   }
+   .pre1
+   {
+    font-size: 12px;
+    margin-top: 6pc;
+    padding-left: 8pc;
+    text-align: center;
+    
+   }
+
+   /* productsection */
+ #productsection
+ {
+    height: 1550px;
+ }
+   #img-1
+   {
+    margin-top: -17vh;
+    margin-left: 6vh;
+   }
+  #img-2
+  {
+    margin-top: 15vh;
+    margin-left: 6vh;
+  }
+  .span1
+  {
+    text-align: center;
+    margin-top: 12vh;
+   padding-left: 0.5vh;
+  }
+  .P1
+  {
+        margin-left: 19.5vh;
+        margin-top: 8vh;
+  }
+  #span2
+  {
+    text-align: center;
+    margin-top: 43vh;
+   padding-left: 1vh;
+  }
+  .P2
+  {
+    margin-top: 7vh;
+    margin-left: 20vh;
+
+  }
+  #img-3
+  {
+    margin-left: 6vh;
+    margin-top: 5pc;
+  }
+  #span-3
+  {
+    margin-left: -13pc;
+    margin-top: 20pc;
+
+  }
+  .P3
+  {
+    margin-top: 7vh;
+    margin-left: 19vh;
+
+  }
+  #img-4
+  {
+    margin-top: 8pc;
+    margin-left:6vh;
+  }
+  #span-4
+  {
+    margin-left: -13pc;
+    margin-top: 23pc;
+
+  }
+  .P4
+  {
+    margin-left: 19vh;
+    margin-top: 7vh;
+  }
+  #img-5
+  {
+   margin-left: 3pc;
+   margin-top: 5pc;
+  }  
+  #span-5
+  {
+    margin-left: -13pc;
+    margin-top: 20pc;
+
+  }
+   .P5
+   {
+    margin-left: 18vh;
+    margin-top:6vh;
+   }
+
+   
+   /* =========== white box coding  */
+  .head
+  {
+    margin-left: -4vh;
+    font-size: 5vh;
+    margin-top: -230vh;
+  }
+  .boys-watch
+  {
+    left: -9vh;
+    max-height: 400px;
+  }
+  .img-6
+  {
+    left: -70vh;
+    padding-top: 52vh;
+  }
+  .img-7
+  {
+    left: -110vh;
+    padding-top: 90vh;
+  }
+  .img-8
+  {
+    left: -70vh;
+    padding-top: 95vh;
+  }
+  .img-9
+  {
+    left: -110vh;
+    padding-top: 135vh;
+  }
+  .today-2
+  {
+    margin-left: 7vh;
+    margin-top: 95vh;
+  }
+  .today-3
+  {
+    margin-left: 7vh;
+    margin-top: 132vh;
+  }
+  .today-4{
+    margin-left: 7vh;
+    margin-top: 175vh;
+  }
+  .today-5{
+    margin-left: 7vh;
+    margin-top: 215vh;
+  }
+  .rado-custome-hr
+   {
+    display: none;
+   }
+
+
+   /* =========girls */
+   .girl-watch-img
+
+   {
+  left: -85vh;
+  max-height: 40vh;
+  padding-top: 121pc;
+  
+   }
+}
